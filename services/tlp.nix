@@ -1,0 +1,11 @@
+{ config, lib, pkgs, inputs, ... }:
+
+{
+  services.power-profiles-daemon.enable = false;
+
+  services.tlp = {
+    enable = true;
+    pd.enable = true;
+
+  };
+}
