@@ -10,6 +10,7 @@
     ./hardware/lights.nix
     ./hardware/cool
     ./services/tlp.nix
+    ./services/fwupd.nix
 
   ];
 }
